@@ -1,0 +1,14 @@
+{
+  "files.associations": {
+    "*.css": "tailwindcss",
+  },
+
+  // Disable file nesting if annoying
+  "explorer.fileNesting.enabled": true,
+  "explorer.fileNesting.expand": false,
+  "explorer.fileNesting.patterns": {
+    "*.component.ts": "$(capture).component.spec.ts, $(capture).component.css",
+    "package.json": "pnpm-lock.yaml, tsconfig.json"
+  },
+  "typescript.tsdk": "node_modules/typescript/lib",
+}

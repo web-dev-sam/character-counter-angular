@@ -1,1 +1,31 @@
-/* You can add global styles to this file, and also import other style files */
+@import "tailwindcss";
+
+@theme {
+  --color-background: hsl(232, 18%, 9%);
+}
+
+@font-face {
+  font-family: 'DMSans';
+  src: url('/fonts/DM_Sans/DMSansVariable.woff2') format('woff2'),
+    url('/fonts/DM_Sans/DMSansVariable.woff') format('woff'),
+    url('/fonts/DM_Sans/DMSansVariable.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DMSans';
+  src: url('/fonts/DM_Sans/DMSansItalicVariable.woff2') format('woff2'),
+    url('/fonts/DM_Sans/DMSansItalicVariable.woff') format('woff'),
+    url('/fonts/DM_Sans/DMSansItalicVariable.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+body {
+  font-family: DMSans, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: url('/images/bg-noise.png'), var(--color-background);
+  image-rendering: pixelated;
+}
