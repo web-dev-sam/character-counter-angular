@@ -10,7 +10,7 @@ _A solution to the Character counter challenge on Frontend Mentor, built with An
 &nbsp;
 
 ## Why does this exist?
-1. Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## How it looks
 

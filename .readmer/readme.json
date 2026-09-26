@@ -1,13 +1,16 @@
 {
   "title": "Simple Character Counter Using Angular 19",
   "tagline": "A solution to the Character counter challenge on Frontend Mentor, built with Angular 19. 🔤",
-  "why": [
-    "Frontend Mentor challenges help you improve your coding skills by building realistic projects."
-  ],
+  "why": "Frontend Mentor challenges help you improve your coding skills by building realistic projects.",
   "sections": [
     {
       "title": "How it looks",
-      "images": [{ "src": ".github/assets/preview.jpg", "width": 600 }]
+      "images": [
+        {
+          "src": ".github/assets/preview.jpg",
+          "width": 600
+        }
+      ]
     },
     {
       "title": "The challenge",
